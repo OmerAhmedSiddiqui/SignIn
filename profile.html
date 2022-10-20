@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Mine Css -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <section class="signup my-5" id="Signup-Container">
+        <div class="container">
+            <div class="row">
+                <div class="col card ">
+                    <div class="row">
+                        <div class="col-3 m-auto">
+
+                            <h1 class="font-weight-light ">Profile Data</h2>
+                        </div>
+                    </div>
+                    <div class="d-flex p-5">
+                        <div id="data">
+                            <h2 id="name" class="font-weight-light my-5">Name : </h2>
+                            <h2 id="Email" class="font-weight-light my-5">Email :</h2>
+                            <h2 id="passwrod" class="font-weight-light my-5">Password :</h2>
+                        </div>
+                        <div class="ml-auto">
+                            <label for="file-uploader">
+                                <input type="file" id="file-uploader" style="display: none;">
+                                <h4 class="font-weight-light">Upload Profile Pic</h4>
+                                <br />
+                                <img src="images/signup-image.jpg" id="profile-img" alt="sing up image">
+                            </label>
+                            <br />
+                            <button class="btn btn-primary ml-5" id="upload-img">Upload</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <script src="profile.js" type="module"></script>
+</body>
+
+</html>
